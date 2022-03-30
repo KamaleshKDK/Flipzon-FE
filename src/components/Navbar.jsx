@@ -82,11 +82,12 @@ const Navbar = () => {
     <Container>
       <Wrapper>
         <Left>
-          <Language>EN</Language>
-          <SearchContainer>
-            <Input placeholder="Search" />
-            <Search style={{ color: "gray", fontSize: 16 }} />
-          </SearchContainer>
+             
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO-JA8SRxE3OgvEsNQ2iM3-h1tTyjpOppIa6FN9N0E8xHDCJpo1Yeg1QYmlfNXk7nMul4&usqp=CAU" style={{width: "30px", height: "30px" , paddingRight: "10px"}} alt="" />
+          <Link className="link" to="/">
+
+          <h2 className="link">FLIPZON</h2  >
+           </Link>
         </Left>
         <Center>
           <Link className="link" to="/">
