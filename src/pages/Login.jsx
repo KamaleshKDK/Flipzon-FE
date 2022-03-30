@@ -81,6 +81,8 @@ const Login = () => {
     <Container>
       <Wrapper>
         <Title>LOG IN</Title>
+        <h4 style={{textAlign : "center"}}>Username : guest</h4>
+        <h4 style={{textAlign : "center"}}>Password : guest</h4>
         <Form>
           <Input
             placeholder="username"
